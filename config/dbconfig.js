@@ -6,7 +6,7 @@ var options = {
     port: 9042,
   },
   localDataCenter: "datacenter1",
-  keyspace: "store",
+  keyspace: "test_pi",
   pooling: {
     coreConnectionsPerHost: {
       [distance.local]: 2,
